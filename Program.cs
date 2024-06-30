@@ -69,7 +69,7 @@
                     Console.WriteLine(poem);
                 }
                 Poem SPoem = poemData.SearchByTitle("If—");
-                Console.WriteLine($"SEARCH POEM:\n {SPoem}");
+                Console.WriteLine($"SEARCH POEM:\n{SPoem}");
             }
             catch (Exception ex)
             {
